@@ -11,7 +11,7 @@ const authenticateUser = async (body) => {
     throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid Email Address')
   }
 
-  const otp = `${Math.floor(1000 + Math.random() * 9000)}`
+  const otp = `${Math.floor(100000 + Math.random() * 900000)}`
 
   const variables = {
     otp,
