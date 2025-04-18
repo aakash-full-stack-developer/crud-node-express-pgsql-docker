@@ -1,0 +1,13 @@
+{
+    "development": {
+      "NODE_ENV": "development",
+      "PORT": 3000,
+      "DATABASE_URL": "mysql://root:12345678@localhost:3306/native?schema=public",
+      "JWT_SECRET": "QDw^d2+qu/!2?~Uf",
+      "JWT_ACCESS_EXPIRATION_MINUTES": 9999,
+      "JWT_REFRESH_EXPIRATION_DAYS": 600,
+      "JWT_RESET_PASSWORD_EXPIRATION_MINUTES": 5,
+      "ETHEREAL_USER": "velva.mann@ethereal.email",
+      "ETHEREAL_PASS": "n5Jw9q2vztr1EksPCj"
+    }
+}
